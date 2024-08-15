@@ -1,0 +1,284 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+
+.navbar{
+    background-color: black;
+    padding: 15px 20px;
+    border-bottom: 2px solid white;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    font-size: 16px;
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* .bimg{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%
+} */
+
+
+.middle > img{
+    width: 100%;
+    height: 500px;
+}
+
+
+.text{
+    width: 60%;
+    position: absolute;
+    color: white;
+    top: 250px;
+    margin-left: 50px;
+}
+
+
+.text > p{
+    word-spacing: 2px;
+}
+
+
+
+.text > h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+.text > h1 > .dif{
+    color: #f05758;
+}
+
+
+.btn{
+    border: none;
+    color: white;
+    background-color: #f05758;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.btn > a{
+    color: white;
+}
+
+
+.btn2{
+    border: none;
+    color: white;
+    background-color: #f05758;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.btn2 > a{
+    color: white;
+}
+.between{
+    width: 100%;
+    height: 450px;
+    background-color: #faf7e4;
+
+}
+
+.between > img{
+    width: 50%;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left:100px;
+    margin-top: 70px;
+    float: left;
+}
+
+.b-text{
+    width: 50%;
+    color: black;
+    top: 250px;
+    margin-left: 50px;
+    margin-top: 70px;
+    float: left;
+}
+
+
+.b-text > p{
+    word-spacing: 2px;
+    margin-bottom: -10px;
+}
+
+
+
+.b-text > h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+.b-dif{
+    color: #f05758;
+}
+
+
+.b-btn{
+    border: none;
+    color: white;
+    background-color: #f05758;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.b-btn > a{
+    color: white;
+}
+.blk{
+    width: 100%;
+    height: 640px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.blk > .heading{
+    color: #f05758;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.blk > p{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.blk-card{
+    width: 260px;
+    height: 375px;
+    text-align: center;
+    float: left;
+    border: 3px solid white;
+    padding: 5px;
+    margin-left: 120px;
+}
+
+
+.blk-card > img{
+    width: 232px;
+    height: 175px;
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.blk-card > span{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #f05758;
+    font-weight: bold;
+}
+
+.blk-card > p{
+    color: white;
+    margin-top: 15px;
+}
+
+.blk-btn{
+    border: 2px solid #f05758;
+    color: white;
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.blk-btn > a{
+    color: white;
+}
+.bottom{
+    width: 100%;
+    height: 400px;
+    background-color: #faf7e4;
+
+}
+
+.contact{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 5px;
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+.contact > h2{
+    color: #f05758;
+    margin-bottom: 10px;
+}
+
+.contact > p{
+    margin-bottom: 5px;
+}
+
+.icons{
+    text-align: center;
+    padding-top: 100px
+}
+
+
+.icons > i{
+    color: #f05758;
+    font-size: 30px;
+
+}
+button{
+    padding: 8px 15px;
+    border: 1px solid rgb(0, 95, 133);
+    border-radius: 20px;
+    margin-top: 1vh;
+    background-color: rgb(11, 226, 241);
+}
